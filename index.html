@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeroGravity | Oficjalne Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- FontAwesome dla ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+
+<body>
+    <!-- Particles.js Background -->
+    <div id="particles-js"></div>
+
+    <!-- Discord Chat Widget -->
+    <div id="discord-widget">
+        <iframe src="https://discord.com/widget?id=YOUR_SERVER_ID&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+    </div>
+
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/logo.png" alt="ZeroGravity Logo">
+                <h1 class="neon">ZeroGravity</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#team">Zespół</a></li>
+                <li><a href="#projects">Projekty</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero">
+            <h2 class="glitch">Witamy w ZeroGravity</h2>
+            <p>Tworzymy z pasją. Działamy z precyzją.</p>
+            <a href="https://discord.gg/YbuNXpwkWY" target="_blank" class="btn glow-btn">Dołącz do naszego Discorda 🚀</a>
+        </div>
+    </header>
+
+    <!-- 🟡 TEAM SECTION -->
+    <section id="team" class="team-section reveal floating">
+        <h2>Nasz Zespół</h2>
+        <div class="team-cards">
+            <div class="team-member reveal">
+                <img src="img/rapa-avatar.png" alt="RAPA" class="avatar">
+                <h3>RAPA</h3>
+                <p>Lead Developer</p>
+            </div>
+
+            <div class="team-member reveal">
+                <img src="img/bvvs-avatar.png" alt="BVVS" class="avatar">
+                <h3>BVVS</h3>
+                <p>Lider Projektu</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects-section reveal floating">
+        <h2>Nasze Projekty</h2>
+        <div class="projects-grid">
+            <a href="#" class="project-card glow reveal">
+                <h3>Projekt 1</h3>
+                <p>Opis projektu 1.</p>
+            </a>
+            <a href="#" class="project-card glow reveal">
+                <h3>Projekt 2</h3>
+                <p>Opis projektu 2.</p>
+            </a>
+            <a href="#" class="project-card glow reveal">
+                <h3>Projekt 3</h3>
+                <p>Opis projektu 3.</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section reveal floating">
+        <h2>Kontakt</h2>
+        <p>Masz pytania? Skontaktuj się z nami!</p>
+        <form id="contactForm" class="reveal">
+            <input type="text" id="name" placeholder="Twoje imię" required>
+            <input type="email" id="email" placeholder="Twój email" required>
+            <textarea id="message" rows="5" placeholder="Twoja wiadomość" required></textarea>
+            <button type="submit" class="btn glow-btn">Wyślij wiadomość 💬</button>
+        </form>
+        <div id="formResponse"></div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2024 ZeroGravity Team. Wszelkie prawa zastrzeżone.</p>
+        <div class="social-icons">
+            <a href="https://discord.gg/YbuNXpwkWY" target="_blank"><i class="fab fa-discord"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <!-- MAIN JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
